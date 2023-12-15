@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>InsertarUsuario</display-name>
+    <servlet-name>InsertarUsuario</servlet-name>
+    <servlet-class>prueba.InsertarUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertarUsuario</servlet-name>
+    <url-pattern>/InsertarUsuario</url-pattern>
+  </servlet-mapping>
+  <display-name>ProyectoGrupo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MostrarDatos</display-name>
+    <servlet-name>MostrarDatos</servlet-name>
+    <servlet-class>prueba.MostrarDatos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MostrarDatos</servlet-name>
+    <url-pattern>/MostrarDatos</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>IniciarSesion</display-name>
+    <servlet-name>IniciarSesion</servlet-name>
+    <servlet-class>servlets.IniciarSesion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IniciarSesion</servlet-name>
+    <url-pattern>/IniciarSesion</url-pattern>
+  </servlet-mapping>
+</web-app>
